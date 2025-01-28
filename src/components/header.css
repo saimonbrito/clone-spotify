@@ -1,0 +1,37 @@
+.reader{
+    color:#b2b2b2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.6rem;
+}
+.input{
+    display: flex;
+    gap: 20px;
+}
+.home,.pesquisa input{
+    background-color: #2a2a2a;
+   
+}
+.pesquisa , .home {
+    border-radius: 25px;
+    background-color: #2a2a2a;
+    padding: 0.5rem;
+   
+
+}
+input{
+    outline: none;
+    border: 0;
+    border-right: solid 1px #7b7b7b;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+   
+}
+button{
+    width: 6rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 25px;
+}
