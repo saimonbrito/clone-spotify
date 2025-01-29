@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.biblioteca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 15px;
+}
+.biblioteca p{
+    font-weight: bold;
+}
+span{
+    color: #fff;
+}
+
+h3{
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lateral{
+    margin: 10px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #121212;
+    padding: 10px;
+}
+.cards{
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.cards2{
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 200px;
+}
+button{
+    margin-top: 10px;
+    font-weight: bold;
+    width: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.normas{
+    max-width: 100px;
+}
+.list{
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    text-transform: none;
+}
+.button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 10px;
+}

@@ -2,6 +2,7 @@
 //import viteLogo from '/vite.svg'
 import './App.css'
 import {Header} from './components/header'
+import { PaginaLateral } from './components/pagina-lateral'
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Header/>
+      <PaginaLateral/>
     </>
   )
 }
