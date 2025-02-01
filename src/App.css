@@ -1,6 +1,13 @@
+
+.container {
+    width: 1120px;
+    margin: 30px auto;
+}
+
 .central-app{
     display: flex;
     gap: 2px;
     margin: 0;
+    justify-content: center;
    
 }

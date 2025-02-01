@@ -8,10 +8,11 @@
 
 .main{
     background-color: #121212;
+  border-radius: 10px;
     
 }
-.main-car{
-    margin: 10px;
+.mainCar{
+    margin: 0px;
     display: flex;
     gap: 5px;
     flex-wrap: wrap;

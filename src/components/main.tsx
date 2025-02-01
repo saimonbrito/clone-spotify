@@ -1,14 +1,14 @@
 
 import  { CardsMain } from './cards-main'
 import { MainHeader } from './main-header'
-import './main.css'
+import styles from './main.module.css'
 
 
 export function Main(){
     return(
-        <div className="main">
+        <div className={styles.main}>
             <MainHeader/>
-           <div className='main-car'>
+           <div className={styles.mainCar}>
 
            <CardsMain/>
            <CardsMain/>
