@@ -48,24 +48,38 @@ h3{
     border-radius: 20px;
     margin-bottom: 200px;
 }
-button{
+.button-cards{
     margin-top: 10px;
     font-weight: bold;
     width: 150px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .normas{
-    max-width: 100px;
+    display: flex; 
+    flex-direction: column;
 }
-.list{
-    color: #fff;
+.links{
     display: flex;
-    text-decoration: none;
-    text-transform: none;
+    gap: 10px;
 }
-.button{
+.links a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #9b9696;
+}
+
+.button-pagina-lateral{
     background-color: transparent;
     color: #fff;
-    border: 1px solid #fff;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 50px;
+  
+}
+.button-pagina-lateral:hover{
+    background-color: rgb(219, 219, 219);
+    font-size: 13px;
+    color: #1f1f1f;
+    transition: 0.5s;
 }

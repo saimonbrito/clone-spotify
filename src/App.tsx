@@ -3,6 +3,7 @@
 import './App.css'
 import {Header} from './components/header'
 import { PaginaLateral } from './components/pagina-lateral'
+import {Main} from './components/main'
 
 function App() {
   
@@ -10,7 +11,11 @@ function App() {
   return (
     <>
       <Header/>
-      <PaginaLateral/>
+      <div className='central-app'> 
+        <PaginaLateral/>
+        <Main/>
+      </div>
+      
     </>
   )
 }

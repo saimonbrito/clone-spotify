@@ -1,0 +1,17 @@
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.main-header h2 {
+    color: #fff;
+}
+.main-header button{
+    background-color:transparent ;
+    border: 0;
+    color: #dbd4d4;
+}

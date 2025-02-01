@@ -29,9 +29,10 @@ input{
    
    
 }
-button{
+.button_heade{
     width: 6rem;
     padding: 0.5rem;
     font-weight: bold;
-    border-radius: 25px;
+    border-radius: 50px;
+    background-color: aliceblue;
 }
