@@ -8,7 +8,9 @@ import { House,Search,Layers } from 'lucide-react'
             <div><img src={Logo}  width={30} height={30} alt="" /></div>
            
             <div className={styles.input}>
-                 <div className={styles.home}><House/></div>
+                 <div className={styles.home}>
+                  <House/>
+                  </div>
                     <div className={styles.pesquisa}>
                       <Search/>
                        <input type="text" placeholder="O que você quer ouvir? " />

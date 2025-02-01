@@ -1,14 +1,13 @@
 
 import styles from './pagina-lareral.module.css'
+import { LibraryBig } from 'lucide-react'
 
 export function PaginaLateral(){
     return(
         <div className={styles.lateral}>
-            <div className={styles.biblioteca}>
-                <div>
-                
-                <p><span>|||</span> Sua Biblioteca</p>
-                </div>
+            <div className={styles.biblioteca}> 
+                  
+                <p ><LibraryBig/> Sua Biblioteca</p>
                 <span>+</span>
             </div>
 

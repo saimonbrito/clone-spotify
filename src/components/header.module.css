@@ -9,8 +9,18 @@
     display: flex;
     gap: 20px;
 }
-.home,.pesquisa input{
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    
+}
+.pesquisa input{
     background-color: #2a2a2a;
+    width: 20vw;
+    color: #fff;
+    
    
 }
 .pesquisa , .home {
@@ -29,7 +39,7 @@ input{
    
    
 }
-.buttonHeade{
+.buttonHeader{
     width: 6rem;
     padding: 0.5rem;
     font-weight: bold;
