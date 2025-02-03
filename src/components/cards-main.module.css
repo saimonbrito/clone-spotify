@@ -1,15 +1,18 @@
 
 
-.cardsCar{
+.mainCardCar{
+     background-color: var(--gray-700);
+     padding: 0.25rem;
+     border-radius: 0.625rem;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    color: #fff;
+    color: var(--gray-100);
 
 
 }
 
-.cardCarImg {
+.mainCardCarImg {
     border-radius: 50%;
     width: 10rem;
     
