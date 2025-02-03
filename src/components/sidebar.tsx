@@ -15,23 +15,16 @@ export function Sidebar(){
             <SideBarCard titulo='Crie sua primeira playlist' descricao='É facio, vamos te ajudar.' descricaoButton='Criar Playlist'/>
             <SideBarCard titulo='Que tal seguir um podcast novo?' descricao='Avisaremos você sobre novos episodios.'  descricaoButton='Explorar podcasts'/>
 
-
-            <div className={styles.normas}>
-             
                 <ul className={styles.links}>
                     <li><a href="">Legal</a></li>
                     <li><a href="">Segurança e Centro de privacidade</a></li>
                     <li><a href="">Politica de privacidade</a></li>
-                </ul>
-                <ul className={styles.links}>
                     <li><a href="">Cookies</a></li>
                     <li><a href="">Sobre anucios</a></li>
                     <li><a href="">Acessibilidade</a></li>
                     
                 </ul>
                     
-            </div>
-
            <ButtonSpotify descripton='Português do Brasil'/>
         </div>
     )

@@ -1,5 +1,5 @@
 .cards{
-    width: 97%;
+    width: 40vw;
     padding: 0.1rem;
     background-color: #1f1f1f;
     border-radius: 1.5rem;
@@ -10,14 +10,22 @@
   
 }
 .titulo{
-    margin-bottom: 0.625rem;
+    margin-bottom:var(--style-font);
     font-weight: bold;
-    color: #fff;
+    color:var(-- --gray-600);
     
   }
 .descicao {
     font-weight: 400;
     font-size: 1rem;
-    color: #fff;
+    color: var(-- --gray-600);
     
 }
+
+@media screen and (min-width: 1160px)  {
+    .cards{
+        width: 17vw;
+        
+      
+    }
+  }

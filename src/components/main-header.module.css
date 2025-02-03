@@ -8,10 +8,6 @@
 }
 
 .mainHeader h2 {
-    color: #fff;
+    color:var(--gray-300);
 }
-.mainHeader button{
-    background-color:transparent ;
-    border: 0;
-    color: #dbd4d4;
-}
+

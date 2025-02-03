@@ -1,6 +1,6 @@
 .buttonSidebar{
     border-radius: 1.5rem;
-    margin-top: 0.625rem;
+    margin-top: var(--style-font);
     font-weight: bold;
     width:  25vw;
     padding: 0.5rem;
@@ -12,3 +12,13 @@
     color: #1f1f1f;
     transition: 0.5s;
 }
+@media screen and (min-width: 1160px)  {
+    .buttonSidebar{
+        border-radius: 1.5rem;
+        margin-top: var(--style-font);
+        font-weight: bold;
+        width:  10vw;
+        padding: 0.5rem;
+      
+    }
+  }
