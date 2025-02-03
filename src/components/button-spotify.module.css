@@ -1,0 +1,14 @@
+.buttonSidebar{
+    border-radius: 1.5rem;
+    margin-top: 0.625rem;
+    font-weight: bold;
+    width:  25vw;
+    padding: 0.5rem;
+  
+}
+.buttonSidebar:hover{
+    background-color: rgb(219, 219, 219);
+    font-size: 13px;
+    color: #1f1f1f;
+    transition: 0.5s;
+}

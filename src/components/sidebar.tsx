@@ -1,27 +1,20 @@
 
-import styles from './pagina-lareral.module.css'
+import styles from './sidebar.module.css'
 import { LibraryBig } from 'lucide-react'
+import { SideBarCard } from './siderbar-card'
+import { ButtonSpotify } from './button-spotify'
 
-export function PaginaLateral(){
+export function Sidebar(){
     return(
-        <div className={styles.lateral}>
-            <div className={styles.biblioteca}> 
-                  
+        <div className={styles.container}>
+            <div className={styles.biblioteca}>     
                 <p ><LibraryBig/> Sua Biblioteca</p>
                 <span>+</span>
             </div>
 
-            <div className={styles.cards}>
-                <h3>Crie sua primeira playlist</h3>
-                <p>É facio, vamos te ajudar.</p>
-                <button  className={styles.buttonCards}>Criar playlist</button>
-            </div>
+            <SideBarCard titulo='Crie sua primeira playlist' descricao='É facio, vamos te ajudar.' descricaoButton='Criar Playlist'/>
+            <SideBarCard titulo='Que tal seguir um podcast novo?' descricao='Avisaremos você sobre novos episodios.'  descricaoButton='Explorar podcasts'/>
 
-            <div  className={styles.cards2}>
-                <h3>Que tal seguir um podcast novo?</h3>
-                <p>Avisaremos você sobre novos episodios.</p>
-                <button className={styles.buttonCards}>Explorar podcasts</button>
-            </div>
 
             <div className={styles.normas}>
              
@@ -39,7 +32,7 @@ export function PaginaLateral(){
                     
             </div>
 
-            <button className={styles.buttonPaginaLateral}>Português do Brasil</button>
+           <ButtonSpotify descripton='Português do Brasil'/>
         </div>
     )
 }

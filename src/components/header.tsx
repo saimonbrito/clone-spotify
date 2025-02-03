@@ -1,17 +1,19 @@
 import styles from './header.module.css'
 import Logo from '../../public/favicon.png'
 import { House,Search,Layers } from 'lucide-react'
+
+import { ButtonSpotify } from './button-spotify'
  
  export function Header(){
     return(
-        <div className={styles.reader}>
+        <div className={styles.container}>
             <div><img src={Logo}  width={30} height={30} alt="" /></div>
            
-            <div className={styles.input}>
-                 <div className={styles.home}>
+            <div className={styles.containerInput}>
+                 <div className={styles.containerInputIconiHome}>
                   <House/>
                   </div>
-                    <div className={styles.pesquisa}>
+                    <div className={styles.containerInputPesquisa}>
                       <Search/>
                        <input type="text" placeholder="O que você quer ouvir? " />
                       <Layers/>
@@ -19,7 +21,8 @@ import { House,Search,Layers } from 'lucide-react'
                  </div>
             <div>Instalar aolicativo</div>
             <div>Inscreva-se</div>
-            <button className={styles.buttonHeader}>Entrar</button>
+            <ButtonSpotify descripton='Entrar'/>
+           
         </div>
     )
  }

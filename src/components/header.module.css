@@ -1,48 +1,41 @@
-.reader{
-    color:#b2b2b2;
+.container{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0.6rem;
 }
-.input{
+.containerInput{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
-.pesquisa {
+.containerInputPesquisa {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 14px;
+    gap: 1rem;
     
 }
-.pesquisa input{
-    background-color: #2a2a2a;
+.containerInputPesquisa input{
+    background-color:var(--gray-700);
     width: 20vw;
-    color: #fff;
+   
     
    
 }
-.pesquisa , .home {
-    border-radius: 25px;
-    background-color: #2a2a2a;
+.containerInputPesquisa , .containerInputIconiHome {
+    border-radius: 1.5rem;
+    background-color:var(--gray-700);
     padding: 0.5rem;
    
 
 }
-input{
+.containerInputPesquisa input{
     outline: none;
     border: 0;
-    border-right: solid 1px #7b7b7b;
-    margin-right: 10px;
-    margin-left: 10px;
+    border-right: solid 1px var(--gray-600);
+    margin-right: 0.625rem;
+    margin-left: 0.625rem;
    
    
-}
-.buttonHeader{
-    width: 6rem;
-    padding: 0.5rem;
-    font-weight: bold;
-    border-radius: 50px;
-    background-color: aliceblue;
 }

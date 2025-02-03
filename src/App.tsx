@@ -2,7 +2,7 @@
 //import viteLogo from '/vite.svg'
 import './App.css'
 import {Header} from './components/header'
-import { PaginaLateral } from './components/pagina-lateral'
+import { Sidebar } from './components/sidebar'
 import {Main} from './components/main'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div className='container'>
       <Header/>
       <div className='central-app'> 
-        <PaginaLateral/>
+        <Sidebar/>
         <Main/>
       </div>
       
