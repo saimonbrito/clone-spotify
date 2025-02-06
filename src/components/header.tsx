@@ -1,10 +1,13 @@
-import Logo from "../../public/favicon.png";  
-import { House, Search, Layers } from "lucide-react";
+import { House, Layers, Search } from "lucide-react";
+import Logo from "./assets/icons/favicon.png";
+
+
 import styles from "./header.module.css";
 
 import { ButtonSpotify } from "./button-spotify";
 
 export function Header() {
+  
   return (
     <div className={styles.container}>
       <div>
@@ -17,11 +20,12 @@ export function Header() {
         </div>
         <div className={styles.containerInputPesquisa}>
           <Search />
-          <input type="text" placeholder="O que você quer ouvir? " />
+          ///imput contetAPI
+          
           <Layers />
         </div>
       </div>
-      <div>Instalar aolicativo</div>
+      <div className="containerApp">Instalar o Aplicativo</div>
       <div>Inscreva-se</div>
       <ButtonSpotify descripton="Entrar" />
     </div>

@@ -49,6 +49,24 @@ span{
     color: var(--gray-300);
    
 }
+
+@media (min-width: 360px) and (max-width: 740px) {
+    .container{
+        height: 80vh;
+        align-items: center;
+        width: 100vw;
+       
+    }
+    .links{
+        display: flex;
+        gap:var(--style-font);
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 1rem 0 0 3rem;
+        
+    }
+}
+
 @media screen and (min-width: 1160px)  {
     .links{
         margin: 5rem 0 0 1rem;

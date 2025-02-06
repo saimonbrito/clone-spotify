@@ -12,6 +12,18 @@
     color: #1f1f1f;
     transition: 0.5s;
 }
+
+@media (min-width: 360px) and (max-width: 740px) {
+    .buttonSidebar{
+        border-radius: 1.5rem;
+        margin-top: var(--style-font);
+        font-weight: bold;
+        width:  50vw;
+        padding: 0.5rem;
+      
+    }
+}
+
 @media screen and (min-width: 1160px)  {
     .buttonSidebar{
         border-radius: 1.5rem;

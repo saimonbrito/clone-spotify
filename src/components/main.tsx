@@ -7,12 +7,21 @@ import artis4 from "./assets/playlist/11.jpeg";
 
 import styles from "./main.module.css";
 
+
+
 export function Main() {
+
+  
+
   return (
     <div className={styles.main}>
       <MainHeader />
 
-      <div className={styles.mainCar}>
+        <div>  
+        
+      </div>  
+
+      <div className={styles.mainCar } >
         <CardsMain title="Christmas Hits" name="Artista" imegem={artis1} />
         <CardsMain title="simbady" name="rits" imegem={artis2} />
         <CardsMain title="sempr" name="kid" imegem={artis3} />
