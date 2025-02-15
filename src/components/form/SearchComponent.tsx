@@ -1,12 +1,13 @@
 // src/SearchComponent.js  
 
 import { useSearch } from './busca-api';  
+import styles from './SearchComponent.module.css'
 
 const SearchComponent = () => {  
   const { searchTerm, setSearchTerm }:any = useSearch();  
 
   return (  
-    <div>  
+    <div className={styles.container}>  
       <input  
         type="text"  
         value={searchTerm}  

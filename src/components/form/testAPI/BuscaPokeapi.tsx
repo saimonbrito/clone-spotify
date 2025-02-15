@@ -24,7 +24,7 @@ export function BuscaPokeapi() {
 
                    setData(datas);
            
-                   console.log(datas);  
+                  
                
            } catch (error) {  
                   console.error('Erro:', error);  
