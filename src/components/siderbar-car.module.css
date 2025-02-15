@@ -22,7 +22,7 @@
     
 }
 
-@media (min-width: 360px) and (max-width: 740px) {
+@media screen and (max-width: 740px) {
     .cards{
         width: 90vw;
         align-items: center;

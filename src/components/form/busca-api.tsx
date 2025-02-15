@@ -26,7 +26,7 @@ export const SearchProvider = ({ children }:any) => {
       }  
 
       try {  
-        const response = await fetch(`http://localhost:3000/items?q=${searchTerm}`);  
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/ditto`);  
         if (!response.ok) {  
           throw new Error(`Erro na requisição: ${response.statusText}`);  
         }  

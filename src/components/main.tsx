@@ -1,32 +1,45 @@
-import { CardsMain } from "./cards-main";
+
 import { MainHeader } from "./main-header";
-import artis1 from "./assets/playlist/1.jpeg";
-import artis2 from "./assets/playlist/9.jpeg";
-import artis3 from "./assets/playlist/5.jpeg";
-import artis4 from "./assets/playlist/11.jpeg";
+
+
+import { BuscaPokeapi } from "./form/testAPI/BuscaPokeapi";
+
+interface PropsAPI {
+  item: string;
+  searchTerm: string;
+}
 
 import styles from "./main.module.css";
 
 
+import { useSearch } from './form/busca-api';
+
+
 
 export function Main() {
-
-  
+ const { item,searchTerm,error }:any = useSearch(); 
+  console.log("test " + item);
 
   return (
-    <div className={styles.main}>
-      <MainHeader />
-
+      
+        <div className={styles.mainHeder}>
+          <MainHeader />
         <div>  
-        
-      </div>  
-
-      <div className={styles.mainCar } >
-        <CardsMain title="Christmas Hits" name="Artista" imegem={artis1} />
-        <CardsMain title="simbady" name="rits" imegem={artis2} />
-        <CardsMain title="sempr" name="kid" imegem={artis3} />
-        <CardsMain title="futuros" name="test" imegem={artis4} />
-      </div>
-    </div>
+            
+        </div>  
+          <div className={styles.mainCar } >
+           
+            <BuscaPokeapi/>
+            {searchTerm}
+            {error && item.map((item:PropsAPI, index: number) => 
+              <div key={index}>
+                <p>{item.item}</p>
+              </div>
+            )}
+          </div>
+         
+          
+        </div>
+    
   );
 }

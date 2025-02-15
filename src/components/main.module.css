@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 
-.main{
+
+.mainHeder{
     background-color: #121212;
     border-radius:var(--style-font);
     margin:var(--style-font);
@@ -13,7 +14,8 @@
 }
 .mainCar{
     width: 70vw;
-    display: flex;
+    display: grid;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
     gap: 1rem;
     flex-wrap: wrap;
 }
@@ -22,13 +24,13 @@
     display: none;
 }
 
-@media (min-width: 360px) and (max-width: 740px) {
+@media screen and (max-width: 740px) {
     .mainCar{
         width: 70vw;
         display: flex;
         flex-direction: column;
         gap: 1rem;
-       margin-left: 5rem;
+       margin-left: 3rem;
     }
 }
 

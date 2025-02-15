@@ -1,18 +1,27 @@
 
-.container {
-    width: 500px;
-    margin: 30px auto;
+.containerApp {
+   
+   
 }
 
 .central-app{
-    
+    margin-top: 2rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
    
 }
 
-@media (min-width: 360px) and (max-width: 740px) {
-   
+@media screen and (max-width: 740px) {
+    .container {
+        
+        width: 5.208vw;
+        
+    }
+    .central-app{
+    
+       align-items: center;
+        flex-direction: column;
+        
+       
+    }
 }

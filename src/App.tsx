@@ -1,17 +1,20 @@
 import { Header } from "./components/header";
 import { Sidebar } from "./components/sidebar";
 import { Main } from "./components/main";
-import "./App.css";
+import { SearchProvider } from './components/form/busca-api';  
+import  "./App.css";
 
 function App() {
   return (
-    <div className="container">
+    <SearchProvider>
+    <div className="containerApp">
       <Header />
       <div className="central-app">
         <Sidebar />
         <Main />
       </div>
     </div>
+    </SearchProvider>
   );
 }
 

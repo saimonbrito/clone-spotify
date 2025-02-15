@@ -3,7 +3,7 @@
 import { useSearch } from './busca-api';  
 
 const DisplayComponent = () => {  
-  const { items, error }:any = useSearch();  
+  const { items, error,searchTerm }:any = useSearch();  
 
   return (  
     <div>  
@@ -11,6 +11,7 @@ const DisplayComponent = () => {
       <h2>Itens Encontrados:</h2>  
       <ul>  
         {items}  
+        {searchTerm}
       </ul>  
     </div>  
   );  

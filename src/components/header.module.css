@@ -1,9 +1,10 @@
 .container{
-    
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 0.6rem;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+
 }
 .containerInput{
     display: flex;
@@ -13,16 +14,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 5rem;
+    
     
 }
-.containerInputPesquisa input{
-    background-color:var(--gray-700);
-    width: 20vw;
-   
-    
-   
-}
+
 .containerInputPesquisa , .containerInputIconiHome {
     border-radius: 1.5rem;
     background-color:var(--gray-700);
@@ -30,7 +26,12 @@
    
 
 }
+.containerInputIconiHome{
+    
+}
 .containerInputPesquisa input{
+    background-color:var(--gray-700);
+    width: 20vw;
     outline: none;
     border: 0;
     border-right: solid 1px var(--gray-600);
@@ -39,7 +40,7 @@
    
    
 }
-@media (min-width: 360px) and (max-width: 740px) {
+@media screen and (max-width: 740px) {
     
     .container{
     
@@ -53,6 +54,10 @@
         display: flex;
         gap: 1.25rem;
         
+    }
+    .containerInputIconiHome{
+ 
+        width: 50vw;
     }
     .containerApp , .containerInputIconiHome{
         display: none;
