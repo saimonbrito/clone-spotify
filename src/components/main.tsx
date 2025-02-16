@@ -24,20 +24,17 @@ export function Main() {
   return (
       
         <div className={styles.mainHeder}>
-          <MainHeader />
-        <div>  
-            
-        </div>  
-          <div className={styles.mainCar } >
-          
-            <BuscaPokeapi/>
-            {searchTerm}
-            {error && item.map((item:PropsAPI, index: number) => 
-              <div key={index}>
-                <p>{item.item}</p>
+              <MainHeader />
+              <div className={styles.mainCar } >
+              
+                    <BuscaPokeapi/>
+                   
+                    {error && item.map((item:PropsAPI, index: number) => 
+                        <div key={index}>
+                          <p>{item.item}</p>
+                        </div>
+                    )}
               </div>
-            )}
-          </div>
          
           
         </div>

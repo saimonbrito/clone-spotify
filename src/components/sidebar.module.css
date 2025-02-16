@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .container{
+    height: 70vh;
     width: 20.833vw;
-   
     display: flex;
     align-items: center;
     flex-direction: column;
