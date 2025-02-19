@@ -1,9 +1,9 @@
-import styles from "./button-spotify.module.css";
+import styles from './button-spotify.module.css'
 
 interface ButtonSpotifyProps {
-  descripton: string;
+  descripton: string
 }
 
 export function ButtonSpotify({ descripton }: ButtonSpotifyProps) {
-  return <button className={styles.buttonSidebar}>{descripton}</button>;
+  return <button className={styles.buttonSidebar}>{descripton}</button>
 }

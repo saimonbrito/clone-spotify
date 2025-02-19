@@ -1,37 +1,32 @@
-
-
-.mainCardCar{
-     background-color: var(--gray-700);
-     padding: 0.25rem;
-     border-radius: 0.625rem;
-     display: flex;
-     flex-direction: column;
-     gap: 5px;
-     color: var(--gray-100);
+.mainCardCar {
+  background-color: var(--gray-700);
+  padding: 0.25rem;
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--gray-100);
 }
 
 .mainCardCarImg {
-    border-radius: 50%;
-    width: 15vw;
-    
+  border-radius: 50%;
+  width: 15vw;
 }
 @media screen and (max-width: 740px) {
-   
-    .mainCardCar{
-        background-color: var(--gray-700);
-        padding: 0.25rem;
-        border-radius: 0.625rem;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 5px;
-        color: var(--gray-100);
-   }
+  .mainCardCar {
+    background-color: var(--gray-700);
+    padding: 0.25rem;
+    border-radius: 0.625rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--gray-100);
+  }
 }
 
-@media screen and (min-width: 1160px)  {
-    .mainCardCarImg{
-        width: 10rem;
-        
-    }
+@media screen and (min-width: 1160px) {
+  .mainCardCarImg {
+    width: 10rem;
   }
+}

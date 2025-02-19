@@ -1,20 +1,20 @@
-// src/DisplayComponent.js  
- 
-import { useSearch } from './busca-api';  
+// src/DisplayComponent.js
 
-const DisplayComponent = () => {  
-  const { items, error,searchTerm }:any = useSearch();  
+import { useSearch } from './busca-api'
 
-  return (  
-    <div>  
-      {error && <p style={{ color: 'red' }}>Erro: {error}</p>}  
-      <h2>Itens Encontrados:</h2>  
-      <ul>  
-        {items}  
+const DisplayComponent = () => {
+  const { items, error, searchTerm }: any = useSearch()
+
+  return (
+    <div>
+      {error && <p style={{ color: 'red' }}>Erro: {error}</p>}
+      <h2>Itens Encontrados:</h2>
+      <ul>
+        {items}
         {searchTerm}
-      </ul>  
-    </div>  
-  );  
-};  
+      </ul>
+    </div>
+  )
+}
 
-export default DisplayComponent;
+export default DisplayComponent

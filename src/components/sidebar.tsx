@@ -1,7 +1,7 @@
-import styles from "./sidebar.module.css";
-import { LibraryBig } from "lucide-react";
-import { SideBarCard } from "./siderbar-card";
-import { ButtonSpotify } from "./button-spotify";
+import styles from './sidebar.module.css'
+import { LibraryBig } from 'lucide-react'
+import { SideBarCard } from './siderbar-card'
+import { ButtonSpotify } from './button-spotify'
 
 export function Sidebar() {
   return (
@@ -47,5 +47,5 @@ export function Sidebar() {
 
       <ButtonSpotify descripton="Português do Brasil" />
     </div>
-  );
+  )
 }

@@ -1,6 +1,6 @@
-import styles from "./main-header.module.css";
+import styles from './main-header.module.css'
 
-import { ButtonSpotify } from "./button-spotify";
+import { ButtonSpotify } from './button-spotify'
 
 export function MainHeader() {
   return (
@@ -8,5 +8,5 @@ export function MainHeader() {
       <h2>Artistas populares</h2>
       <ButtonSpotify descripton="Entrar" />
     </div>
-  );
+  )
 }

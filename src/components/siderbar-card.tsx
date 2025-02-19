@@ -1,11 +1,11 @@
 interface SideBarCardProps {
-  titulo: string;
-  descricao: string;
-  descricaoButton: string;
+  titulo: string
+  descricao: string
+  descricaoButton: string
 }
 
-import styles from "./siderbar-car.module.css";
-import { ButtonSpotify } from "./button-spotify";
+import styles from './siderbar-car.module.css'
+import { ButtonSpotify } from './button-spotify'
 
 export function SideBarCard({
   titulo,
@@ -18,5 +18,5 @@ export function SideBarCard({
       <span className={styles.descicao}>{descricao}</span>
       <ButtonSpotify descripton={descricaoButton} />
     </div>
-  );
+  )
 }

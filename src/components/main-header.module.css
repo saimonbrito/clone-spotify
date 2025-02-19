@@ -1,24 +1,19 @@
-
-.mainHeader{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
-
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
 }
 
 .mainHeader h2 {
-    color:var(--gray-300);
+  color: var(--gray-300);
 }
 
 @media screen and (max-width: 740px) {
-    
-    .mainHeader{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 1rem;
-        
-    
-    }
+  .mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
 }
